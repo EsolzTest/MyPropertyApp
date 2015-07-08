@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#FFF"
+    android:layout_height="match_parent">
+    <!-- HEADER LAYOUT-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="#1F3763">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_horizontal"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:text="Register Property"/>
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/backarrw"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:text="RELATIONSHIP TO PROPERTY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:textColor="#1F3763"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:text="Owner"
+                        />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="PROPERTY TYPE"/>
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_width="50dp"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/forward"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="CURRENT STATUS"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="HOUSE NUMBER OR NAME"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="ADDRESS LINE"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="TOWN"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="POSTCODE/ZIP"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="DISPLAY ADDRESS"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="NEXT"/>
+    </LinearLayout>
+
+</LinearLayout>
